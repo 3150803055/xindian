@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>[页面标题]</title>
+</head>
+<body>
+<header class="header clearfix">
+    <div class="bg">
+        <img src="images/topTitle-bg.png" alt="" title="">
+    </div>
+    <div class="header-title">新点招投标交易平台</div>
+    <div class="header-user">
+        <a href=""><img src="images/default-person.png" alt="" title=""></a>
+    </div>
+    <div class="header-news">
+        <a href=""><img src="images/topmsg-bg.png" alt="" title=""></a>
+    </div>
+    <div class="header-sucessprogram">
+        <a href=""><img src="images/topnav-icon3.png" alt="" title=""><br/>
+            <p>中标项目</p></a>
+    </div>
+    <div class="header-myprogram">
+        <a href=""><img src="images/topnav-icon2.png" alt="" title=""><br/>
+            <p>我的项目</p></a>
+    </div>
+    <div class="header-notice">
+        <a href=""><img src="images/topnav-icon1.png" alt="" title=""><br/>
+            <p>招标公告</p></a>
+    </div>
+</header>
+<nav class="nav clearfix">
+    <!--下拉列表-->
+    <div class="nav-state l">
+        <select name="nav-state">
+            <option value="公告中" selected="selected">公告中</option>
+            <option value="即将开始">即将开始</option>
+            <option value="已结束">已结束</option>
+        </select>
+    </div>
+    <div class="nav-list l">
+        <ul id="tabs">
+            <li class="nav-item l" id="nav-all"><a href="" class="active">全部</a></li>
+            <li class="nav-item l" id="nav-program"><a href="">工程</a></li>
+            <li class="nav-item l" id="nav-purchase"><a href="">采购</a></li>
+            <li class="nav-item l" id="nav-property"><a href="">产权</a></li>
+            <li class="nav-item l" id="nav-land"><a href="">土地</a></li>
+        </ul>
+        <div class="nav-search">
+            <input type="search" placeholder="关键字搜索"/>
+            <span><img src="images/search-btn.png"></span>
+        </div>
+    </div>
+</nav>
+<section class="section clearfix">
+    <div class="section-contain active l" id="rediv">
+        <ul id="contain-now">
+            <!--<li id="contain-program">-->
+            <!--<div id="contain-type">-->
+            <!--<div id="contain-top-left" class="style1">-->
+            <!--<img src="images/lihdbg1.png"><span>工程</span>-->
+            <!--</div>-->
+            <!--<div id="contain-top-right" class="style2"><span>公开招标</span></div>-->
+            <!--</div>-->
+            <!--<div id="contain-name">11</div>-->
+            <!--<div id="contain-msg">11</div>-->
+            <!--<div id="contain-info1">-->
+            <!--<div id="doc-money" class="style1">我们不一样</div>-->
+            <!--<div id="doc-autum" class="style2">11</div>-->
+            <!--</div>-->
+            <!--<div id="contain-info2">-->
+            <!--<div id="pro-money" class="style1">11</div>-->
+            <!--<div id="pro-autum" class="style2">11</div>-->
+            <!--</div>-->
+            <!--<div id="contain-info3">-->
+            <!--<div id="runtime" class="style1">11</div>-->
+            <!--<div id="datetime" class="style2">11</div>-->
+            <!--</div>-->
+            <!--<div id="contain-info4">-->
+            <!--<div id="starttime" class="style1">11</div>-->
+            <!--<div id="endtime" class="style2">11</div>-->
+            <!--</div>-->
+            <!--</li>-->
+            <!--<li id="contain-purchase"></li>-->
+            <!--<li id="contain-land"></li>-->
+            <!--<li id="contain-property"></li>-->
+        </ul>
+        <ul id="contain-end"></ul>
+    </div>
+    <aside class="aside r">
+        <div><img src="images/rb-first1.png"></div>
+        <div><img src="images/rb-second1.png"></div>
+    </aside>
+</section>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,341 @@
+/**!
+ * [页面名称]
+ * date:2017-01-01
+ * author: [xx];
+ */
+/*页面头部*/
+img {
+    vertical-align: middle;
+}
+
+.header {
+    height: 65px;
+    background: url("../images/top-bg.png");
+    /*border: 1px solid black;*/
+}
+
+/*页面logo*/
+.header .bg {
+    height: 50px;
+    width: 80px;
+    margin-left: 20px;
+    float: left;
+}
+
+.header .bg img {
+    height: 38px;
+    padding-top: 12px;
+}
+
+/*页面标题*/
+.header .header-title {
+    float: left;
+    font: normal bold 30px/30px normal;
+    color: #fff;
+    padding-top: 14px;
+    margin-left: 6px;
+}
+
+/*头部右边部分*/
+.header-notice, .header-myprogram, .header-sucessprogram, .header-news, .header-user {
+    float: right;
+    /*border:0.1px solid #FFFFFF;*/
+    width: 125px;
+    height: 65px;
+    background-color: #4771e9;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.header p {
+    display: block;
+    padding-top: 8px;
+}
+
+.header-notice a,
+.header-myprogram a,
+.header-sucessprogram a,
+.header-news a,
+.header-user a {
+    display: inline-block;
+    color: #fff;
+    height: 45px; /*65-15-5 总高度去掉内边距和底边显示边框的粗细度*/
+    width: 100%;
+    padding-top: 15px;
+}
+
+.header-notice a:hover,
+.header-myprogram a:hover,
+.header-sucessprogram a:hover {
+    background-color: #3024ff;
+    border-bottom: 5px solid orange;
+}
+
+/*nav导航栏*/
+.nav {
+    background-image: url("../images/topnav-activebg.png");
+    height: 50px;
+}
+
+.nav .nav-state select {
+    display: block;
+    width: 105px;
+    height: 49px;
+    /*border-radius: 50px;*/
+    color: blue;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1;
+    border: none;
+    border-right: rgba(12, 41, 41, 0.15);
+}
+
+.nav .nav-list {
+    height: 50px;
+    width: 1220px;
+    position: relative;
+    /*border:1px solid black;*/
+}
+
+.nav .nav-list .active {
+    background-color: #a2c4e9;
+}
+
+.nav .nav-item a {
+    display: block;
+    height: 24px;
+    width: 85px;
+    border-radius: 50px;
+    /*border:1px solid black;*/
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    color: blue;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.nav .nav-search {
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /*background-color: #4771e9;*/
+    border: 1px solid gainsboro;
+}
+
+.nav .nav-list input {
+    position: absolute;
+    left: 10px;
+    width: 150px;
+    height: 30px;
+    text-indent: 1.5em;
+    font-size: 14px;
+    background: transparent; /*设置input框背景颜色和nav导航栏的背景颜色一样*/
+    outline: medium; /*input框被选中时不显示边框*/
+    border: 0; /*取消input边框*/
+}
+
+.nav .nav-search span img {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.section {
+    /*background: url("../images/topnav-activebg.png");*/
+    height: 700px;
+    width: 100%;
+    background-color: #f8f9ff;
+    position: relative;
+}
+
+.section-contain {
+    width: 1260px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    display: none;
+}
+
+.section .active {
+    display: block;
+}
+
+.section-contain ul {
+    width: 1300px;
+}
+
+.section-contain li {
+    display: inline-block;
+    width: 270px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    border: 1px solid #fff;
+    box-sizing: content-box;
+    background-color: #fff;
+}
+
+.section-contain li:hover {
+    border: 1px solid blue;
+    display: inline-block;
+    width: 270px;
+    border-radius: 10px;
+    margin: 20px 20px;
+
+}
+
+.contain-type {
+    height: 35px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px 10px 0 0;
+    /*padding:10px 0;*/
+}
+
+.contain-name {
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 1em;
+    text-align: left;
+    line-height: 35px;
+}
+
+.contain-msg {
+    height: 50px;
+    width: 100%;
+}
+
+.contain-msg .message {
+    display: block;
+    height: 45px;
+    width: 255px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    /*以下三行设置p标签只显示两行内容，多余的内容用...表示。此方法存在兼容性问题，再苹果浏览器和谷歌浏览器兼容，对于火狐和ie浏览器不适用*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0 5px 5px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.contain-info1 {
+    height: 35px;
+    width: 100%;
+    background-color: rgba(126, 104, 143, 0.05);
+}
+
+/*第四到第7行左边div的样式*/
+.style1 {
+    height: 100%;
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    line-height: 35px;
+    text-indent: 1em;
+}
+
+/*第四到第七行右边div的样式*/
+.style2 {
+    height: 100%;
+    width: 125px;
+    float: left;
+    text-align: right;
+    font-size: 12px;
+    line-height: 35px;
+    color: #91a8ff;
+    padding-right: 10px;
+}
+
+.contain-info2 {
+    height: 35px;
+    width: 100%;
+}
+
+.contain-info3 {
+    height: 35px;
+    width: 100%;
+    background-color: rgba(126, 104, 143, 0.05);
+}
+
+.contain-info4 {
+    height: 35px;
+    width: 100%;
+}
+
+.section-contain span {
+    color: #fff;
+    display: inline; /*span标签转换成行元素，但是具有块元素的性质，通过这样同时设置内容框顶部的左右文字属性*/
+    margin: 0 1em 0 0.5em;
+    text-align: right;
+}
+
+#contain-end .contain-type {
+    background-color: rgba(63, 75, 39, 0.35);
+}
+
+#contain-end li {
+    position: relative;
+}
+
+#contain-end .contain-msg .message {
+    width: 175px;
+}
+
+#program-info4 .program-info4-1 {
+    color: #fff;
+    background-color: #9fa9ff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 35px;
+    border-radius: 0 0 0 5px;
+    text-indent: 0 !important;
+}
+
+#program-info4 .program-info4-2 {
+    color: #fff;
+    background-color: orange;
+    text-align: center;
+    font-size: 14px;
+    line-height: 35px;
+    border-radius: 0 0 5px 0;
+    text-indent: 0 !important;
+}
+
+.aside {
+    width: 30px;
+    position: fixed; /*将aside标签固定在页面的右下角，且随着页面滑动不会改变位置*/
+    top: 500px;
+    right: 40px;
+}
+
+.aside div {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+}
+
+.aside div img {
+    vertical-align: middle;
+    padding: 5px 7px;
+}
+
+#cutoff {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    width: 70px;
+    vertical-align: middle;
+    padding: 0 10px;
+}

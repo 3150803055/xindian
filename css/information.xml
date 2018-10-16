@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<json>
+    <programe id="001">
+    <number>
+        ABCD111
+    </number>
+    <name>
+        此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+    </name>
+    <docmoney>
+        招标文件金额
+    </docmoney>
+    <docautum>
+        6000元
+    </docautum>
+    <promoney>
+        保证金金额
+    </promoney>
+    <proautum>
+        5000元
+    </proautum>
+    <runtime>
+        开标时间
+    </runtime>
+    <timedate>
+        2016/02/12 09:00:00
+    </timedate>
+        <starttime>公告详情</starttime>
+        <enddate>我要报名</enddate>
+    </programe>
+    <programe id="002">
+        <number>
+            ABCD111
+        </number>
+        <name>
+            此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+        </name>
+        <docmoney>
+            标书费
+        </docmoney>
+        <docautum>
+            6000元
+        </docautum>
+        <promoney>
+            保证金金额
+        </promoney>
+        <proautum>
+            5000元
+        </proautum>
+        <runtime>
+            开标时间
+        </runtime>
+        <timedate>
+            2016/02/12 09:00:00
+        </timedate>
+        <starttime> </starttime>
+        <enddate> </enddate>
+    </programe>
+    <programe id="003">
+        <number>
+            ABCD111
+        </number>
+        <name>
+            此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+        </name>
+        <docmoney>
+            招标文件金额
+        </docmoney>
+        <docautum>
+            6000元
+        </docautum>
+        <promoney>
+            保证金金额
+        </promoney>
+        <proautum>
+            5000元
+        </proautum>
+        <runtime>
+            挂牌开始时间
+        </runtime>
+        <timedate>
+            2016/02/12 09:00:00
+        </timedate>
+        <starttime>
+            挂牌结束时间
+        </starttime>
+        <enddate>
+            2016/02/13  09:00:00
+        </enddate>
+    </programe>
+    <programe id="004">
+        <number>
+            ABCD111
+        </number>
+        <name>
+            此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+        </name>
+        <docmoney>
+            起始价
+        </docmoney>
+        <docautum>
+            6000元
+        </docautum>
+        <promoney>
+            保证金金额
+        </promoney>
+        <proautum>
+            5000元
+        </proautum>
+        <runtime>
+            交易时间
+        </runtime>
+        <timedate>
+            2016/02/12 09:00:00
+        </timedate>
+        <starttime> </starttime>
+        <enddate> </enddate>
+    </programe>
+    <programe id="005">
+        <number>
+            ABCD111
+        </number>
+        <name>
+            此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+        </name>
+        <docmoney>
+           招标文件金额
+        </docmoney>
+        <docautum>
+            6000元
+        </docautum>
+        <promoney>
+            保证金金额
+        </promoney>
+        <proautum>
+            5000元
+        </proautum>
+        <runtime>
+            开标时间
+        </runtime>
+        <timedate>
+            2016/02/12 09:00:00
+        </timedate>
+        <starttime> </starttime>
+        <enddate> </enddate>
+    </programe>
+    <programe id="006">
+        <number>
+            ABCD111
+        </number>
+        <name>
+            此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+        </name>
+        <docmoney>
+           标书费
+        </docmoney>
+        <docautum>
+            6000元
+        </docautum>
+        <promoney>
+            保证金金额
+        </promoney>
+        <proautum>
+            5000元
+        </proautum>
+        <runtime>
+            开标时间
+        </runtime>
+        <timedate>
+            2016/02/12 09:00:00
+        </timedate>
+        <starttime> </starttime>
+        <enddate> </enddate>
+    </programe>
+    <programe id="007">
+        <number>
+            ABCD111
+        </number>
+        <name>
+            此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+        </name>
+        <docmoney>
+            招标文件金额
+        </docmoney>
+        <docautum>
+            6000元
+        </docautum>
+        <promoney>
+            保证金金额
+        </promoney>
+        <proautum>
+            5000元
+        </proautum>
+        <runtime>
+            挂牌开始时间
+        </runtime>
+        <timedate>
+            2016/02/12 09:00:00
+        </timedate>
+        <starttime>
+        挂牌结束时间
+    </starttime>
+    <enddate>
+        2016/02/13  09:00:00
+    </enddate>
+    </programe>
+    <programe id="008">
+        <number>
+            ABCD111
+        </number>
+        <name>
+            此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称此处显示项目名称
+        </name>
+        <docmoney>
+            起始价
+        </docmoney>
+        <docautum>
+            6000元
+        </docautum>
+        <promoney>
+            保证金金额
+        </promoney>
+        <proautum>
+            5000元
+        </proautum>
+        <runtime>
+            交易时间
+        </runtime>
+        <timedate>
+            2016/02/12 09:00:00
+        </timedate>
+        <starttime> </starttime>
+        <enddate> </enddate>
+    </programe>
+</json>
